@@ -1,0 +1,158 @@
+@media (max-width: 1300px) {
+	.ctn-header,
+	.wrapper,
+	.about,
+	.skills {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.wrapper {
+		height: 390px;
+	}
+
+	.wrapper--info p {
+		font-size: 20px;
+	}
+
+	.wrapper--info h1 {
+		font-size: 50px;
+	}
+
+	.wrapper--img img {
+		width: 500px;
+	}
+}
+
+@media (max-width: 900px) {
+	.ctn-header {
+		height: 80px;
+	}
+
+	.header--menu ul {
+		position: fixed;
+		width: 350px;
+		height: 100vh;
+		top: 0;
+		right: 0;
+		flex-direction: column;
+		border-left: 1px solid var(--first-color);
+		padding: 50px 0;
+		box-shadow: -5px 0px 22px -5px rgba(33,150,243,0.75);
+		background: var(--background);
+		transform: translateX(1000px);
+		transition: all 500ms ease-in-out;
+		z-index: 50;
+	}
+
+	.header--menu ul li a:before {
+		bottom: 40px;
+	}
+
+	.menu-btn {
+		display: flex;
+	}
+
+	.line-1,
+	.line-2,
+	.line-3 {
+		transition: all 500ms;
+	}
+}
+
+@media (max-width: 900px) {
+	.wrapper {
+		height: 330px;
+	}
+
+	.wrapper--img {
+		display: none;
+	}
+
+	.about__content--info {
+		margin-top: 40px;
+	}
+
+	.about-image img {
+		width: 300px;
+	}
+}
+
+@media (max-width: 750px) {
+	.about {
+		flex-wrap: wrap;
+	}
+
+	.about--content {
+		width: 100%;
+	}
+
+	.about__content--info {
+		width: 100%;
+		text-align: center;
+	}
+
+	.about-image {
+		width: 100%;
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	.skills__cards--card {
+		width: 220px;
+		height: 220px;
+	}
+
+	.icon-img svg{
+		width: 120px;
+	}
+}
+
+@media (max-width: 600px) {
+	.header--menu ul {
+		width: 100vw;
+	}
+
+	.wrapper--info {
+		position: absolute;
+		margin-right: 30px;
+		bottom: 150px;
+	}
+
+	.wrapper--info h1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 392px) {
+	.wrapper__info--button {
+		width: 100%;
+		flex-wrap: wrap;
+		margin-top: 10px;
+	}
+
+	.wrapper__info--button a:nth-child(2) {
+		margin: 10px 0;
+	}
+
+	.about-image img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 290px) {
+	.wrapper--info h1 {
+		font-size: 30px;
+	}
+
+	.wrapper--info p {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 230px) {
+	.wrapper__info--button a {
+		padding: 10px ;
+	}
+}
