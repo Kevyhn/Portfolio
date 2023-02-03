@@ -407,6 +407,14 @@ span {
 	background: #61dbfb;
 }
 
+.skills__cards--card:hover .node {
+	background: #3c873a;
+}
+
+.skills__cards--card:hover .angular {
+	background: #dd1b16;
+}
+
 .skills__cards--card:hover .php {
 	background: #7557cf;
 }
