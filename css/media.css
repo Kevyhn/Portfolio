@@ -2,8 +2,17 @@
 	.ctn-header,
 	.wrapper,
 	.about,
-	.skills {
+	.skills,
+	.projects {
 		padding: 0 30px;
+	}
+
+	.projects {
+		margin-bottom: 25px;
+	}
+
+	.projects__content--title {
+		margin-top: 40px;
 	}
 }
 
@@ -58,6 +67,14 @@
 	.line-2,
 	.line-3 {
 		transition: all 500ms;
+	}
+
+	.projects {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.projects__content--title {
+		grid-column: 1 / 3;
 	}
 }
 
@@ -122,6 +139,14 @@
 
 	.wrapper--info h1 {
 		font-size: 40px;
+	}
+
+	.projects {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.projects__content--title {
+		grid-column: 1 / 2;
 	}
 }
 
