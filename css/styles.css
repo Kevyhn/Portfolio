@@ -137,6 +137,8 @@ body {
 	top: 120px;
 	left: 0;
 	width: 100vw;
+	overflow: hidden;
+	background: var(--background);
 }
 
 .wrapper {
@@ -212,11 +214,6 @@ body {
 
 .wrapper--img img {
 	width: 560px;
-}
-
-.main-content {
-
-	background: var(--background);
 }
 
 .main-content hr {
