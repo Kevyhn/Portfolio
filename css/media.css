@@ -143,11 +143,17 @@
 
 	.projects {
 		height: 180vh;		
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(1, 1fr);		
 	}
 
 	.projects__content--title {
 		grid-column: 1 / 2;
+	}
+}
+
+@media (max-width: 415px) {
+	.projects {
+		grid-template-rows: auto 370px 370px 370px 370px;
 	}
 }
 
@@ -164,7 +170,7 @@
 
 	.about-image img {
 		width: 100%;
-	}
+	}	
 }
 
 @media (max-width: 290px) {
